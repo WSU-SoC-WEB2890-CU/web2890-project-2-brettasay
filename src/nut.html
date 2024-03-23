@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WEB 2890 - Project 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="goal-foundation" content="website for goal foundation">
+
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="./stylesheets/main.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Inter:wght@300&family=Rubik+Mono+One&family=Saira:ital,wght@1,200;1,500;1,600;1,900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="module" src="./javascripts/main.js"></script>
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="graphics/1x/logo.png" alt="Logo" width="80" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.getoutandlive.org/p/getinvolved">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/p/sponsors">Be A Sponsor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/contact.aspx">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--HERO-->
+  <div class= "container-fluid d-flex align-items-center" id="hero-nut" style="height: 60vh">
+    
+    <div class="d-flex inline-flex  justify-content-end flex-column w-50" id="countdown-nut">
+      <div class="p-2 m-2 text-center" id="days">00<span>days</span></div>
+      <div class="p-2 m-2 text-center" id="hours">00<span>hours</span></div>
+      <div class="p-2 m-2 text-center" id="minutes">00<span>minutes</span></div>
+      <div class="p-2 m-2 text-center" id="seconds">00<span>seconds</span></div>
+    </div>
+    <div class="col bg-transparent">
+      <h1 class="display-1" id="hero-heading">Northern Utah Trailfest</h1>
+      <div class="btn btn-primary btn-lg position-absolute top-70 start-50 translate-middle">Register</div>
+    </div>
+  </div> 
+
+
+  <!--THE NUT EVENTS-->
+  <section class="Events">
+    <h1 class="text-center">Events</h1>
+  
+    <div class= "container">
+      <div class = "row">
+        <div class = "col p-3 lift" id = "event-trailrun">
+          <a href="#full-marathon"><img src="graphics/1x/trailrun.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3  lift" id = "event-bikerace">
+          <a href="#half-marathon"><img src="graphics/1x/bikerace.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-camping">
+          <a href="#relay-marathon"><img src="graphics/1x/camping.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-festival">
+          <a href="#relay-marathon"><img src="graphics/1x/festival.png" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--ANNOUNCEMENT-->
+  <section class="announce">
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Calling All Local Musicians!</h1>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="images/music.jpg" class="img-fluid" alt="Local Musicians">
+        </div>
+        <div class="col-md-8 d-flex justify-content-center flex-column">
+          <p>
+            The Northern Utah Trailfest is on the lookout for amazing performers to take the stage on October 4th and 5th.
+            
+            If you’re passionate about music and love the great outdoors, this is your chance to shine! Whether you’re a solo artist, duo, or a band, we want to hear from you! Don’t miss out on this incredible opportunity to showcase your talent at one of Northern Utah’s most anticipated outdoor events!
+            
+            Link below to apply now or learn more. Applications close on April 1st.
+          </p>
+          <!-- Button centered below the paragraph -->
+          <div class="text-center">
+            <button class="btn btn-primary btn-lg">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+    <!--PRICING-->
+    <section class="schedule p-4">
+      <div class="row">
+        <h1 class="text-center">Pricing</h1>
+          <div class="col-md-6">
+              <div class="card ">
+                  <div class="card-body">
+                      <h2 class="card-title">Race Registration</h2>
+                      <p class="card-text"><strong>Trail Run</strong></p>
+                      <p class="card-text">3 Hour Solo: $65</p>
+                      <p class="card-text">6 Hour Solo: $85</p>
+                      <p class="card-text">9 Hour Solo: $105</p>
+                      <p class="card-text">(NEW!) 6 Hour Duo: $160</p>
+                      <p class="card-text"><strong>Bike Race</strong></p>
+                      <p class="card-text">3 Hour Solo: $95</p>
+                      <p class="card-text">6 Hour Solo: $115</p>
+                      <p class="card-text">(NEW!) 6 Hour Duo: $220</p>
+                      <p class="card-text"><em>Price Increase Schedule:</em> $5 price increase for each category on 6/1 and again on 9/1.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card">
+                  <div class="card-body">
+                      <h2 class="card-title">Camping</h2>
+                      <p>Tent/Vehicle Campsite: $40</p>
+                      <p>RV/Trailer Campsite: $60</p>
+                      <p>Premium Private Campsite: $90</p>
+                      <p>VIP Private Campsite: $150</p>
+                      <p><small>*Campsites are NOT included in race registration and will sell out. Choose the race & camping bundle to save $5! Festival & vendor registration will begin June 1st.</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+  <!--THE NUT PHOTOS-->
+  <section class="nut-photos">
+      <div class="container mt-5">
+        <div class="row">
+          <h1 class="text-center">2023 Photos</h1>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <div class="image-overlay-container">
+                <img src="images/carousel1.jpg" alt="Image 1">
+                <div class="overlay-link">
+                  <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                </div>
+              </div>    
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel2.jpg" alt="Image 2">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel3.jpg" alt="Image 3">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel4.jpg" alt="Image 4">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel5.jpg" alt="Image 5">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel6.jpg" alt="Image 6">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel7.jpg" alt="Image 7">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="image-overlay-container">
+                  <img src="images/carousel8.jpg" alt="Image 8">
+                  <div class="overlay-link">
+                    <a href="https://photos.google.com/share/AF1QipM-2aVNxP_oaSRBa182-Izx9RTH18QXViB6vBNuS_IJI8Qmapf1aMLdkzfwoeBw-w?key=WktzeFZzc0NhZ3dveXIteWYzVVBsRzRRN3o5a0h3" class="overlay-text">All Photos</a>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!--THE NUT RESULTS-->
+  <section class="results">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">2023 Race Results</h1>
+        <div class="col text-center">
+          <img src="images/thenutcolour.png">
+          <a href="https://www.brooksee.com/nut/results#" div class="btn btn-primary btn-lg">Results</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SPONSORS-->
+  <section class="sponsors">
+    <h1 class="text-center">Sponsors</h1>
+    <div class= "container">
+      <div class = "row">
+        <div class = "col p-3 lift" id = "event-marathon">
+          <a href="#full-marathon"><img src="images/autoliv.jpg" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-nut">
+          <a href="#half-marathon"><img src="images/gatorade.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-winter">
+          <a href="#relay-marathon"><img src="images/altra_logo.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-winter">
+          <a href="#relay-marathon"><img src="images/groundscoffee.png" class="img-fluid"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class = "col p-3 lift" id = "event-winter">
+          <a href="#12-k"><img src="images/ih.png" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-winter">
+          <a href="#5-k"><img src="images/granite.jpg" class="img-fluid"></a>
+        </div>
+        <div class = "col p-3 lift" id = "event-winter">
+          <a href="#kids-k"><img src="images/ksl.png" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!--FOOTER-->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="graphics/1x/logo.png" alt="Logo" style="height: 50px;">
+        </div>
+        <div class="col">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marathon.html">Marathon</a></li>
+            <li><a href="nut.html">The Nut</a></li>
+            <li><a href="winter.html">Winter Series</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WEB 2890 - Project 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="goal-foundation" content="website for goal foundation">
+
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="./stylesheets/main.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Inter:wght@300&family=Rubik+Mono+One&family=Saira:ital,wght@1,200;1,500;1,600;1,900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="module" src="./javascripts/main.js"></script>
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="graphics/1x/logo.png" alt="Logo" width="80" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.getoutandlive.org/p/getinvolved">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/p/sponsors">Be A Sponsor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/contact.aspx">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!--HERO-->
+<div class= "container-fluid d-flex align-items-center" id="hero-goal" style="height: 60vh">
+
+  <div class="d-flex inline-flex  justify-content-end flex-column w-50" id="countdown-marathon">
+    <div class="p-2 m-2 text-center" id="days">00<span>days</span></div>
+    <div class="p-2 m-2 text-center" id="hours">00<span>hours</span></div>
+    <div class="p-2 m-2 text-center" id="minutes">00<span>minutes</span></div>
+    <div class="p-2 m-2 text-center" id="seconds">00<span>seconds</span></div>
+  </div>
+    <div class="col hero-heading">
+    <h1 class="display-1 text-center" style = "color:white" id="hero-heading">Ogden Marathon</h1>
+    <div class="btn btn-primary btn-lg position-absolute top-70 start-50 translate-middle">Register</div>
+  </div>
+</div>  
+
+<!--EVENTS-->
+<section class="Events">
+  <h1 class="text-center">Events</h1>
+
+  <div class= "container">
+    <div class = "row">
+      <div class = "col p-3 lift">
+        <a href="#full-marathon"><img src="graphics/1x/fullmarathon.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift">
+        <a href="#half-marathon"><img src="graphics/1x/halfmarathon.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift">
+        <a href="#relay-marathon"><img src="graphics/1x/relaymarathon.png" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class = "col p-3 lift">
+        <a href="#12-k"><img src="graphics/1x/12k.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift">
+        <a href="#5-k"><img src="graphics/1x/5k.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift">
+        <a href="#kids-k"><img src="graphics/1x/kidsk.png" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--WHY I RUN-->
+<section class="wir">
+  <div class="row">
+    <h1 class="text-center">Why I Run</h1>
+  </div>
+  <div class="container">
+    <div class="row px-4">
+      <div class="embed-responsive embed-responsive-16by9 px-4">
+        <iframe class="embed-responsive-iframe" src="https://www.youtube.com/embed/qa1zl5jWivA" title="Why I Run-  Reeseman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> 
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--FULL MARATHON-->
+<section id="full-marathon" class="py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h1 class="text-center">Full Marathon</h1>
+      <div class="col-md-6 order-2 order-md-1">
+        
+        <p>This incredibly scenic Boston qualifier course starts at Dancing Moose Farm in the heart of the Wasatch Mountains at an elevation of 5400 ft. with open roads, green fields, and a beautiful river. The final half winds around Pineview Reservoir then drops into Ogden Canyon where you will run along the roaring Ogden River with breathtaking views of pine-covered slopes and steep rock cliffs. The course ends downtown Ogden on Historic 25th street at an elevation of 4,309 Ft. and an incredible finish line festival that is great for the whole family. The gentle downhill makes this event a fast Boston Qualifier, and is one of the many reasons why Runner's World and shape.com named it One of the Best Courses in America for First-Time Marathon Runners.
+
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="images/fullmarathon.png" class="img-fluid" alt="Full Marathon">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--HALF MARATHON-->
+
+<section id="half-marathon" class="py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h1 class="text-center">Half Marathon</h1>
+      <div class="col-md-6 order-2 order-md-1">
+        <p>A USATF certified course, the Ogden Half Marathon begins at the midway point of the Full Marathon and at an elevation of 5,000 feet. At the start the race you will run around Pineview Reservoir, then drop into scenic Ogden Canyon where you will run along the roaring Ogden River. Breathtaking views of pine covered slopes changing into steep rock faces will be encountered along with quaint homes nestled along the river's edge. Exiting the canyon you run onto the Ogden River Parkway for approximately 2 miles before the final stretch along Grant Avenue towards Downtown Ogden. The course ends on Historic 25th street at an elevation of 4,309 Feet.
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="images/halfmarathon.w.png" class="img-fluid" alt="Half Marathon">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--12K-->
+
+<section id="12-k" class="py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h1 class="text-center">12K</h1>
+      <div class="col-md-6 order-2 order-md-1">
+        <p>The Ogden Marathon Scenic Canyon 12K is run over the final 7.5 miles of the marathon course. This is a scenic point-to-point race starting in beautiful Ogden Canyon and ending at our world-class finish line on Historic 25th Street. The 12K is a great bridge between a 5K and half marathon distance, and is a perfect to run or walk while awaiting a friend or family member to finish their full or half marathon race. Take in beautiful canyon views while you run along the Ogden River and head towards Downtown Ogden, where the community awaits to cheer you on during the final stretch to the finish line.
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="images/Ogden_Marathon_Canyon.png" class="img-fluid" alt="12K">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--5K-->
+<section id = "5-k" class="py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h1 class="text-center">5K</h1>
+      <div class="col-md-6 order-2 order-md-1">
+        <p>The Ogden Marathon 5K starts near the Junction Downtown and winds along the Ogden River Parkway before looping back down Grant Avenue for about a mile until you cross the Finish Line. The Ogden River Parkway is a paved pathway that parallels the Ogden River through lush trees. This winding 3.1 mile course will rank amongst the most enjoyable 5K runs you'll ever experience.
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="images/Ogden_Arch.png" class="img-fluid" alt="5K">
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!--KIDs K-->
+<section id = "kids-k" class="py-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h1 class="text-center">Kids K</h1>
+      <div class="col-md-6 order-2 order-md-1">
+        <p>The Ogden Marathon 5K starts near the Junction Downtown and winds along the Ogden River Parkway before looping back down Grant Avenue for about a mile until you cross the Finish Line. The Ogden River Parkway is a paved pathway that parallels the Ogden River through lush trees. This winding 3.1 mile course will rank amongst the most enjoyable 5K runs you'll ever experience.
+        </p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="images/kidsk.png" class="img-fluid" alt="kidsK">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--SPONSORS-->
+<section class="sponsors">
+  <h1 class="text-center">Sponsors</h1>
+  <div class= "container">
+    <div class = "row">
+      <div class = "col p-3 lift" id = "event-marathon">
+        <a href="#full-marathon"><img src="images/autoliv.jpg" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift" id = "event-nut">
+        <a href="#half-marathon"><img src="images/gatorade.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift" id = "event-winter">
+        <a href="#relay-marathon"><img src="images/altra_logo.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift" id = "event-winter">
+        <a href="#relay-marathon"><img src="images/groundscoffee.png" class="img-fluid"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class = "col p-3 lift" id = "event-winter">
+        <a href="#12-k"><img src="images/ih.png" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift" id = "event-winter">
+        <a href="#5-k"><img src="images/granite.jpg" class="img-fluid"></a>
+      </div>
+      <div class = "col p-3 lift" id = "event-winter">
+        <a href="#kids-k"><img src="images/ksl.png" class="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--FOOTER-->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="graphics/1x/logo.png" alt="Logo" style="height: 50px;">
+        </div>
+        <div class="col">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marathon.html">Marathon</a></li>
+            <li><a href="nut.html">The Nut</a></li>
+            <li><a href="winter.html">Winter Series</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      var daysE1 = document.getElementById('days');
+      var hoursE1 = document.getElementById('hours');
+      var minutesE1 = document.getElementById('minutes');
+      var secondsE1 = document.getElementById('seconds');
+    
+      function countdownTimer() {
+          const countDownDate = new Date('05/18/2024 07:00').getTime();
+          const second = 1000;
+          const minute = second * 60;
+          const hour = minute * 60;
+          const day = hour * 24;
+    
+          // Calculate Every Second
+          const interval = setInterval(() => {
+              const now = new Date().getTime();
+              const distance = countDownDate - now;
+    
+              if (distance < 0) {
+                  clearInterval(interval);
+                  daysE1.innerHTML = "00";
+                  hoursE1.innerHTML = "00";
+                  minutesE1.innerHTML = "00";
+                  secondsE1.innerHTML = "00";
+                  return; 
+              }
+    
+              daysE1.innerHTML = formatNumber(Math.floor(distance / day));
+              hoursE1.innerHTML = formatNumber(Math.floor((distance % day) / hour));
+              minutesE1.innerHTML = formatNumber(Math.floor((distance % hour) / minute));
+              secondsE1.innerHTML = formatNumber(Math.floor((distance % minute) / second));
+          }, 1000);
+      }
+    
+      function formatNumber(number) {
+          return number < 10 ? '0' + number : number;
+      }
+    
+      countdownTimer();
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.schedule {
+    .schd-container {
+        position:relative;
+        display:flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background-color: #F50C79;
+        width:45vw;
+        height:auto;
+    }
+
+    .overlay-secondary {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; /* Text color */
+        font-size: 5rem; 
+        font-family:'Rubik Mono One', monospace;
+    }
+}

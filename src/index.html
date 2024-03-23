@@ -6,23 +6,99 @@
   <title>WEB 2890 - Project 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Project 2 ...">
+  <meta name="goal-foundation" content="website for goal foundation">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="./stylesheets/main.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Inter:wght@300&family=Rubik+Mono+One&family=Saira:ital,wght@1,200;1,500;1,600;1,900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="module" src="./javascripts/main.js"></script>
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="graphics/1x/logo.png" alt="Logo" width="80" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.getoutandlive.org/p/getinvolved">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/p/sponsors">Be A Sponsor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ogdenmarathon.com/contact.aspx">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+  <section class="choose-event">
+    <h1 class="text-center">Choose An Event</h1>
+    <div class= "container">
+      <div class = "row">
+        <div class = "col p-3 d-flex event" id = "event-marathon">
+          <a href="marathon.html">
+            <img src="graphics/1x/marathon.landing.png" class="img-fluid lift">
+          </a>
+        </div>
+        <div class = "col p-3 d-flex event" id = "event-nut">
+          <a href="nut.html">
+            <img src="graphics/1x/nut.landing.png" class="img-fluid lift">
+          </a>
+        </div>
+        <div class = "col p-3 d-flex event" id = "event-winter">
+          <a href="winter.html"><img src="graphics/1x/winter.landing.png" class="img-fluid lift"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class = "col p-3" id = "volunteer">
+          <a href="https://www.getoutandlive.org/p/getinvolved"><img src="graphics/1x/volunteer.png" class="img-fluid lift"></a>
+        </div>
+        <div class = "col p-3" id = "sponsor">
+          <a href="https://www.ogdenmarathon.com/p/sponsors"><img src="graphics/1x/sponsor.png" class="img-fluid lift"></a>
+        </div>
+        <div class = "col p-3" id = "donate">
+          <a href="https://www.ogdenmarathon.com/contact.aspx"><img src="graphics/1x/donate.png" class="img-fluid lift"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="graphics/1x/logo.png" alt="Logo" style="height: 50px;">
+        </div>
+        <div class="col">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marathon.html">Marathon</a></li>
+            <li><a href="nut.html">The Nut</a></li>
+            <li><a href="winter.html">Winter Series</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+          
+  <script type="module" src="./javascripts/main.js"></script>   
+  </body>
 </html>

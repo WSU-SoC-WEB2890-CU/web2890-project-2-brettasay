@@ -1,0 +1,72 @@
+@import "bootstrap/scss/bootstrap.scss";
+ 
+    .container-fluid {
+        &#hero-goal {
+            background-image: url(images/runninggroupd.jpg);
+            background-size: cover;
+            position: relative;
+            overflow:hidden;
+        }
+        &#hero-nut {
+            background-image: url(images/bikepov.jpg);
+            background-size: cover;
+            position: relative;
+            overflow:hidden;
+        }
+        &#hero-winter {
+            background-image: url(images/winterrun.WIDE.jpg);
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+    #countdown-marathon {
+        #days, #hours, #minutes, #seconds {
+            background-color: $lt-green;
+            font-family: 'Space Mono', monospace;
+            font-weight:bolder;
+            font-size: 2.5rem;
+            text-transform:uppercase;
+            color:#fff;
+        }
+    }
+
+    #countdown-nut {
+        #days, #hours, #minutes, #seconds {
+            background-color: $yellow;
+            font-family: 'Space Mono', monospace;
+            font-weight:bolder;
+            font-size: 2.5rem;
+            text-transform:uppercase;
+            color:#fff;
+        }
+    }
+
+    #countdown-winter {
+        #days, #hours, #minutes, #seconds {
+            background-color: $dk-neutral;
+            font-family: 'Space Mono', monospace;
+            font-weight:bolder;
+            font-size: 2.5rem;
+            text-transform:uppercase;
+            color:#fff;
+        }
+    }
+
+    #hero-heading {
+        color:#fff;
+        font-weight: 700;
+    }
+
+    #hero-heading-w {
+        color:$dk-green;
+        font-weight: 700;
+    }
+
+
+    
+    
+
+  
+
